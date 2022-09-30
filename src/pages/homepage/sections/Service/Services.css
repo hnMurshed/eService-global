@@ -1,0 +1,49 @@
+.service-section {
+    background-image: url('../../../../images/map-new.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top 120px;
+    padding: 50px 0;
+    transition: background 0.3s,border 0.3s,border-radius 0.3s,box-shadow 0.3s;
+}
+.service-section .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 25px;
+    background-color: white;
+    padding: 35px 0;
+    box-shadow: 13px 13px 51px 0 rgb(10 51 80 / 16%);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.service:hover {
+    background-color: #3b3663;
+}
+.service-icons {
+    display: flex;
+    flex-direction: column;
+}
+.service-icons img {
+    width: 75px;
+    height: auto;
+}
+.service:hover .service-icons img:first-child {
+    visibility: hidden;
+}
+.service-name {
+    font-size: 22px;
+}
+.service:hover .service-name {   
+    color: white;
+}

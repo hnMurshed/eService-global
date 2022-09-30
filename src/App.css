@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
@@ -32,7 +36,35 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* common styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: #3b3663;
+}
+
+.custom-container {
+  width: 88%;
+  margin: 0 auto;
+}
+
+;
+
+.section-title {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+a {
+  text-decoration: none;
 }

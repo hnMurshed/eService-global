@@ -1,0 +1,31 @@
+.banner-section {
+    height: 100vh;
+    text-align: center;
+    background-image: url('../../../../images/home09_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-content {
+    padding-top: 100px;
+}
+.banner-headline {
+    margin-bottom: 50px;
+}
+.banner-content h2 {
+    text-transform: capitalize;
+    font-size: 60px;
+    padding: 20px 0;
+    background-image: linear-gradient(to right, #FF4C6C, #FA9D4D);
+    background-clip: text;
+    color: transparent;
+}
+
+.primary-btn {
+    text-decoration: none;
+    background-color: #6254e7;
+    color: white;
+    font-weight: bold;
+    padding: 10px 25px;
+}
