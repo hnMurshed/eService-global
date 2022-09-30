@@ -16,46 +16,46 @@ const Services = () => {
                 <h2 className='section-title'>Your Social Media and Online Lead Generation Experts</h2>
                 <div className="services">
                     <div className="service">
-                        <div className="service-icons" onClick={() => navigate('social-media-margeting')}>
+                        <div className="service-icons" onClick={() => navigate('services/social-media-marketing')}>
                             <img src={socialMediaIcon1} alt="" />
                             <img src={socialMediaIcon1} alt="" />
                         </div>
-                        <h3 className='service-name' onClick={() => navigate('social-media-marketing')}>Social Media Marketing</h3>
+                        <h3 className='service-name' onClick={() => navigate('services/social-media-marketing')}>Social Media Marketing</h3>
                     </div>
                     <div className="service">
-                        <div className="service-icons" onClick={() => navigate('social-media-margeting')}>
+                        <div className="service-icons" onClick={() => navigate('services/social-media-ads')}>
                             <img src={socialMediaIcon} alt="" />
                             <img src={socialMediaIcon} alt="" />
                         </div>
-                        <h3 className='service-name' onClick={() => navigate('social-media-marketing')}>Social Media Ads</h3>
+                        <h3 className='service-name' onClick={() => navigate('services/social-media-ads')}>Social Media Ads</h3>
                     </div>
                     <div className="service">
-                        <div className="service-icons" onClick={() => navigate('social-media-margeting')}>
+                        <div className="service-icons" onClick={() => navigate('services/pay-per-click')}>
                             <img src={payPerClickIcon} alt="" />
                             <img src={payPerClickIcon} alt="" />
                         </div>
-                        <h3 className='service-name' onClick={() => navigate('social-media-marketing')}>Pay Per Click</h3>
+                        <h3 className='service-name' onClick={() => navigate('services/pay-per-click')}>Pay Per Click</h3>
                     </div>
                     <div className="service">
-                        <div className="service-icons" onClick={() => navigate('social-media-margeting')}>
+                        <div className="service-icons" onClick={() => navigate('services/email-marketing')}>
                             <img src={emailMarketingIcon} alt="" />
                             <img src={emailMarketingIcon} alt="" />
                         </div>
-                        <h3 className='service-name' onClick={() => navigate('social-media-marketing')}>Email Marketing</h3>
+                        <h3 className='service-name' onClick={() => navigate('services/email-marketing')}>Email Marketing</h3>
                     </div>
                     <div className="service">
-                        <div className="service-icons" onClick={() => navigate('social-media-margeting')}>
+                        <div className="service-icons" onClick={() => navigate('services/seo-service')}>
                             <img src={seoReportIcon} alt="" />
                             <img src={seoReportIcon} alt="" />
                         </div>
-                        <h3 className='service-name' onClick={() => navigate('social-media-marketing')}>Search Engine Optimization</h3>
+                        <h3 className='service-name' onClick={() => navigate('services/seo-service')}>Search Engine Optimization</h3>
                     </div>
                     <div className="service">
-                        <div className="service-icons" onClick={() => navigate('social-media-margeting')}>
+                        <div className="service-icons" onClick={() => navigate('services/web-design')}>
                             <img src={webDesignIcon} alt="" />
                             <img src={webDesignIcon} alt="" />
                         </div>
-                        <h3 className='service-name' onClick={() => navigate('social-media-marketing')}>Web Design</h3>
+                        <h3 className='service-name' onClick={() => navigate('services/web-design')}>Web Design</h3>
                     </div>
                 </div>
             </div>

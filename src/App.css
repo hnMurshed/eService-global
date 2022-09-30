@@ -68,3 +68,9 @@ h6 {
 a {
   text-decoration: none;
 }
+
+.linear-text {
+  background-image: linear-gradient(to right, #FF4C6C, #FA9D4D);
+  background-clip: text;
+  color: transparent;
+}

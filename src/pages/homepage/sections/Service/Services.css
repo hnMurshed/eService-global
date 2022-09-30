@@ -41,6 +41,10 @@
 .service:hover .service-icons img:first-child {
     visibility: hidden;
 }
+.service-icons,
+.service-name {
+    cursor: pointer;
+}
 .service-name {
     font-size: 22px;
 }

@@ -17,9 +17,6 @@
     text-transform: capitalize;
     font-size: 60px;
     padding: 20px 0;
-    background-image: linear-gradient(to right, #FF4C6C, #FA9D4D);
-    background-clip: text;
-    color: transparent;
 }
 
 .primary-btn {
