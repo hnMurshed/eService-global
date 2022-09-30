@@ -1,0 +1,10 @@
+.growing-process-section {
+    background-image: url('../../../../images/digital-laptop-working-global-business-concept.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.growing-process-section .arrow {
+    top: calc(50% - 15px);
+    left: calc(100% + 10px);
+}

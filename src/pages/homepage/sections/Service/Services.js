@@ -13,7 +13,7 @@ const Services = () => {
     return (
         <section className='service-section'>
             <div className="custom-container">
-                <h2 className='section-title'>Your Social Media and Online Lead Generation Experts</h2>
+                <h2 className='text-3xl font-bold text-center mb-12'>Your Social Media and Online Lead Generation Experts</h2>
                 <div className="services">
                     <div className="service">
                         <div className="service-icons" onClick={() => navigate('services/social-media-marketing')}>

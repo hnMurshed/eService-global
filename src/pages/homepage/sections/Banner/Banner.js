@@ -1,4 +1,5 @@
 import React from 'react';
+import CustomBtn from '../../../shared/CustomBtn';
 import './Banner.css';
 
 const Banner = () => {
@@ -8,7 +9,7 @@ const Banner = () => {
                 <div className="banner-headline">
                     <h2 className=' capitalize text-6xl linear-text'>we can help with...</h2>
                 </div>
-                <a href="#services" className='primary-btn'>OUR SERVICES</a>
+                <CustomBtn>OUR SERVICES</CustomBtn>
             </div>
         </section>
     );

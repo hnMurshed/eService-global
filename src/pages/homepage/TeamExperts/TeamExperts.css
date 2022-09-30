@@ -1,0 +1,12 @@
+.team-experts-section {
+    padding: 50px 0;
+}
+.image-with-text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+.team-experts-section .img-area img {
+    width: 100%;
+    height: auto;
+}
